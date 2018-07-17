@@ -1,15 +1,46 @@
 body {
-  background-color: rgb(157, 135, 151);
+  background-color: rgb(239, 239, 238);
   font-family: helvetica;
-  color: rgb(212, 246, 243);
+  color: rgb(56, 64, 65);
 }
 
 li {
   list-style: none;
+  display: inline;
+  background-color: rgb(238, 116, 114);
+  margin: 3px;
+  border-radius: 5px;
+}
 
+nav li {
+  padding: 10px;
+  float: right;
+
+
+}
+
+li:hover {
+  background-color: rgb(232, 128, 125);
 }
 
 a {
   color: rgb(212, 246, 243);
   text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  clear: both;
+}
+
+#objects {
+  margin-top: 5%;
+}
+
+#objects li {
+  padding: 10px;
+  color: rgb(212, 246, 243);
+  cursor: pointer;
 }

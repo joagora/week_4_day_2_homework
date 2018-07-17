@@ -13,3 +13,7 @@ get '/game/:player_1/:player_2' do
   @game_result = game.play
   erb :game
 end
+
+get '/play' do
+  erb :play
+end
