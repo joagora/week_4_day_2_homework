@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(157, 135, 151);
+  font-family: helvetica;
+  color: rgb(212, 246, 243);
+}
+
+li {
+  list-style: none;
+
+}
+
+a {
+  color: rgb(212, 246, 243);
+  text-decoration: none;
+}

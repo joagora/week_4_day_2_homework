@@ -16,4 +16,9 @@ class TestRPC < MiniTest::Test
   def test_game_ties
     assert_equal("It's a tie!", @game3.play)
   end
+
+  def test_paper_loses_to_scissors
+    assert_equal("Player two wins", @game2.play)
+  end
+
 end
